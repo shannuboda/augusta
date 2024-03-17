@@ -41,5 +41,20 @@
     font-family: "Merriweather", serif;
     margin-bottom: 2rem;
   }
+  .depts h2,h4{
+    color:#55042a;
+    font-size: 1.9rem;
+  }
+  .depts p
+  {
+    font-size: 1.3rem;
+    color:  #7e6c8d;
+  }
 
-
+.sub-depts{
+   margin-bottom: 2rem;
+}
+.sub-depts img{
+  width:19rem;
+  height: 12rem;
+}
