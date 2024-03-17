@@ -13,6 +13,7 @@ import ContactUs from './pages/subpages/ContactUs';
 import Loader from './pages/Loader';
 import Blog from './pages/subpages/Blog'
 import AirportManagement from './pages/subpages/AirportManagement';
+import GroundStaffing from './pages/subpages/GroundStaffing';
 function App() {
 
   
@@ -34,6 +35,7 @@ function App() {
         <Route path='/loader' element={<Loader></Loader>}/>
         <Route path='/blog' element={<Blog></Blog>}/>
         <Route path='/airportmanagement' element={<AirportManagement></AirportManagement>}/>
+        <Route path="/groundstaff" element={<GroundStaffing></GroundStaffing>}  />
       </Routes>
      <Footer></Footer>
     </div>

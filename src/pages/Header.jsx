@@ -87,7 +87,7 @@ function Header() {
             <NavDropdown title="Courses" id="navbarScrollingDropdown">
               <NavDropdown.Item as = {Link} to="/airportmanagement">Airport Management</NavDropdown.Item>
 
-              <NavDropdown.Item href="#action4">
+              <NavDropdown.Item as = {Link} to="/groundstaff">
                 Ground Staffing Training
               </NavDropdown.Item>
 

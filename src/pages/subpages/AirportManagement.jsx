@@ -10,6 +10,7 @@ import im6 from '../css/subpagescss/images/Dangerous.jpg'
 import im8 from '../css/subpagescss/images/LOAD-TRIM.jpg'
 import im10 from '../css/subpagescss/images/MARSHELLING.jpg'
 import im9 from '../css/subpagescss/images/RAMP-MANAGEMENT.jpg'
+import Courses from '../Courses'
 function AirportManagement() {
   return (
     <div>
@@ -107,7 +108,7 @@ They are responsible for checking luggage against flight lists and taking it to 
 
 
           <Getintouch courseName={"Airport Management"}></Getintouch>
-
+          <Courses></Courses>
     </div>
   )
 }
