@@ -12,6 +12,7 @@ import WhyAugusta from './pages/subpages/WhyAugusta';
 import ContactUs from './pages/subpages/ContactUs';
 import Loader from './pages/Loader';
 import Blog from './pages/subpages/Blog'
+import AirportManagement from './pages/subpages/AirportManagement';
 function App() {
 
   
@@ -32,6 +33,7 @@ function App() {
         <Route path='/contactForm' element={<ContactUs></ContactUs>}/>
         <Route path='/loader' element={<Loader></Loader>}/>
         <Route path='/blog' element={<Blog></Blog>}/>
+        <Route path='/airportmanagement' element={<AirportManagement></AirportManagement>}/>
       </Routes>
      <Footer></Footer>
     </div>
