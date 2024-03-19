@@ -14,7 +14,7 @@ import Courses from '../Courses'
 function AirportManagement() {
   return (
     <div>
-       <div className="airportbanner">
+       <div className="airportbanner" >
             <h3>Airport Management Course</h3>
             <p>Home . Courses</p>
         </div>

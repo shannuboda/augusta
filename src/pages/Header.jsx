@@ -11,54 +11,9 @@ function Header() {
   let navigate = useNavigate()
   return (
     <>
-        {/* <nav className="navbar">
-        <div className="left">
-                <div className="logo-name">
-                  <img src="src\pages\assets\logo.png" alt="" />
-                </div>
-          </div>
-      <ul className="navbar-nav">
-        <li className="nav-item">
-          <a className="nav-link" href="#home">
-            Home
-          </a>
-        </li>
-        <li className="nav-item">
-            <div className="dropdown">
-              <a className="nav-link">About</a>
-                    <div className="dropdown-content">
-                        <a href="#">About Us</a>
-                        <a href="#">Why Augusta ??</a>
-                    </div>
-        </div>
-
-        </li>
-        <li className="nav-item">
-        <div className="dropdown">
-              <a className="nav-link">Courses</a>
-                    <div className="dropdown-content">
-                        <a href="#">Course Link 1</a>
-                        <a href="#">Course Link 2</a>
-                        <a href="#">Course Link 3</a>
-                    </div>
-        </div>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#signup">
-            Blog
-          </a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#signup">
-           Contact Us
-          </a>
-        </li>
-      </ul>
-    </nav>
-      <hr /> */}
-      <Navbar expand="lg" className="bg-body-tertiary">
+       <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#"><h3 style={{marginLeft:'.6rem'}} >Augusta Avitaion</h3></Navbar.Brand>
+        <Navbar.Brand as={Link} to="/"><h3 style={{marginLeft:'.6rem'}} >Augusta Avitaion</h3></Navbar.Brand>
         <Navbar.Brand href="#home">
             <img
               src={logo}
@@ -103,13 +58,9 @@ function Header() {
                 Air Cargo Course
               </NavDropdown.Item>
 
-              <NavDropdown.Item href="#action4">
-                Interview Skills 
-              </NavDropdown.Item>
-
-              <NavDropdown.Item href="#action4">
-                Personality Development
-              </NavDropdown.Item>          
+              <NavDropdown.Item as = {Link} to="/pilot">
+                Pilot Course
+              </NavDropdown.Item>         
             
             </NavDropdown>
            

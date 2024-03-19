@@ -1,5 +1,7 @@
 import React from "react";
 import "../css/subpagescss/aircargo.css";
+import Getintouch from "./Getintouch";
+import Courses from "../Courses";
 function AirCargo() {
   
   return (
@@ -179,6 +181,8 @@ function AirCargo() {
         </div>
         
       </div>
+      <Getintouch courseName={"Air Cargo Course course"} />
+        <Courses></Courses>
     </div>
   );
 }

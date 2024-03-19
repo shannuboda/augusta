@@ -17,6 +17,8 @@ import GroundStaffing from './pages/subpages/GroundStaffing';
 import Ticketing from './pages/subpages/Ticketing';
 import Cabincrew from './pages/subpages/Cabincrew';
 import AirCargo from './pages/subpages/AirCargo';
+import PilotCourse from './pages/subpages/PilotCourse';
+import Getintouch from './pages/subpages/Getintouch';
 function App() {
 
   
@@ -35,13 +37,14 @@ function App() {
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/whyaugusta" element={<WhyAugusta></WhyAugusta>} />
         <Route path='/contactForm' element={<ContactUs></ContactUs>}/>
-        <Route path='/loader' element={<Loader></Loader>}/>
+        <Route path='/getintouch' element={<Getintouch></Getintouch>}/>
         <Route path='/blog' element={<Blog></Blog>}/>
         <Route path='/airportmanagement' element={<AirportManagement></AirportManagement>}/>
         <Route path="/groundstaff" element={<GroundStaffing></GroundStaffing>}  />
         <Route path='/ticketing' element={<Ticketing></Ticketing>} />
         <Route path='/cabincrew' element={<Cabincrew></Cabincrew>} />
         <Route path="/cargo" element={<AirCargo></AirCargo>} />
+        <Route path="/pilot" element={<PilotCourse></PilotCourse>}></Route>
       </Routes>
      <Footer></Footer>
     </div>

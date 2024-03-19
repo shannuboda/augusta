@@ -10,7 +10,7 @@ function Getintouch({courseName}) {
 </h2>
 <div class="row contact-fields">
 <div class="col-md-8 left-form">
-   <form method="post" action="">
+   <form method="POST" action="https://formspree.io/f/xzbnagkk">
       <div class="form-group">
          <label class="sr-only" for="fname">First Name *</label>
          <input class="required form-control" id="fname" name="fname" placeholder="First Name&nbsp;*" type="text" />
@@ -29,7 +29,7 @@ function Getintouch({courseName}) {
       </div>
       <div class="form-group">
          <label class="sr-only" for="contactCourse">Course Name *</label>
-         <input class="required form-control h5-phone" id="contactCourse" name="contactCourse" placeholder={courseName} value ={courseName}/>
+         <input class="required form-control h5-phone" id="contactCourse" name="contactCourse" placeholder="Enter Interested Course" value ={courseName}/>
       </div>
       <div class="form-group">
          <label class="sr-only" for="comment">Type your message here</label>
