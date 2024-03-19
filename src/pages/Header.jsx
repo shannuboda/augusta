@@ -58,7 +58,7 @@ function Header() {
       <hr /> */}
       <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand href="#"><h3 style={{marginLeft:'.6rem'}}>Augusta Avitaion</h3></Navbar.Brand>
+        <Navbar.Brand href="#"><h3 style={{marginLeft:'.6rem'}} >Augusta Avitaion</h3></Navbar.Brand>
         <Navbar.Brand href="#home">
             <img
               src={logo}
@@ -91,16 +91,16 @@ function Header() {
                 Ground Staffing Training
               </NavDropdown.Item>
 
-              <NavDropdown.Item href="#action4">
+              <NavDropdown.Item as = {Link} to="/ticketing">
                 Ticketing
               </NavDropdown.Item>
               
-              <NavDropdown.Item href="#action4">
-                Airline Security Service
+              <NavDropdown.Item as = {Link} to="/cabincrew">
+                Cabin Crew Course
               </NavDropdown.Item>
 
-              <NavDropdown.Item href="#action4">
-                Customer Service
+              <NavDropdown.Item as = {Link} to="/cargo">
+                Air Cargo Course
               </NavDropdown.Item>
 
               <NavDropdown.Item href="#action4">
