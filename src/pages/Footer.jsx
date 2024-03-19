@@ -48,10 +48,13 @@ function Footer() {
               <div className="f2_2">
                   <h4>Popular Courses</h4>
                   <ul>
-                    <li><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>AUGUSTA Certified Airport Management</li>
-                    <li><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>Aviation,  Ground Staffing Training</li>
-                    <li><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>AUGUSTA Certified Ticketing</li>
-                    <li><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>AUGUSTA Certified Airline Security Service</li>
+                    <li> <a href="/airportmanagement" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Airport Management </a></li>
+                    <li> <a href="/groundstaffing" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;Aviation,  Ground Staffing Training </a></li>
+                    <li> <a href="/ticketing" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Ticketing </a></li>
+                    <li> <a href="/cabincrew" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Cabin Crew</a></li>
+                    <li> <a href="/cargo" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Cargo Course</a></li>
+                    <li> <a href="/pilot" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Pilot Course</a></li>
+
                   </ul>
               </div>
 

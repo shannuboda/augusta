@@ -19,6 +19,11 @@ import Cabincrew from './pages/subpages/Cabincrew';
 import AirCargo from './pages/subpages/AirCargo';
 import PilotCourse from './pages/subpages/PilotCourse';
 import Getintouch from './pages/subpages/Getintouch';
+import Sevenwayspost from './pages/posts/Sevenwayspost';
+import HandShakepost from './pages/posts/HandShakepost';
+import Selfdesciplinedpost from './pages/posts/Selfdesciplinedpost';
+import CoffePost from './pages/posts/CoffePost';
+
 function App() {
 
   
@@ -45,6 +50,10 @@ function App() {
         <Route path='/cabincrew' element={<Cabincrew></Cabincrew>} />
         <Route path="/cargo" element={<AirCargo></AirCargo>} />
         <Route path="/pilot" element={<PilotCourse></PilotCourse>}></Route>
+        <Route path ='/post1' element={<Sevenwayspost></Sevenwayspost>} />
+        <Route path ='/post2' element={<HandShakepost></HandShakepost>} />
+        <Route path ='/post3' element={<Selfdesciplinedpost></Selfdesciplinedpost>} />
+        <Route path='/post4' element={<CoffePost></CoffePost>} />
       </Routes>
      <Footer></Footer>
     </div>

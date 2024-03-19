@@ -16,7 +16,7 @@ const BlogCards = ({b1}) => {
                 </div>
                 <h1>{b1.title}</h1>
                 <p>{b1.description}</p>
-                <span><a href="#">Read More...</a></span>
+                <span><a href={b1.link}>Read More...</a></span>
             </div>
           </div> 
         </div>
