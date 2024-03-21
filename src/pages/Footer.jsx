@@ -37,11 +37,11 @@ function Footer() {
               <div className="f2_1">
                   <h4>Latest Posts</h4>
                   <ul>
-                    <li><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>How To Be Motivated</li>
-                    <li><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>The Corporate Handshake Etiquette</li>
-                    <li><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>How To Be Self-Disciplined</li>
-                    <li><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>COFFEE ETIQUETTE</li>
-                    <li><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>10 Most Common Etiquette Mistakes</li>
+                    <li><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="/post1" style={{textDecoration:'none', color:'#6d6f6c'}}>How To Be Motivated</a></li>
+                    <li><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="/post2" style={{textDecoration:'none', color:'#6d6f6c'}}>The Corporate Handshake Etiquette</a></li>
+                    <li><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="/post3" style={{textDecoration:'none', color:'#6d6f6c'}}>How To Be Self-Disciplined</a></li>
+                    <li><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="/post4" style={{textDecoration:'none', color:'#6d6f6c'}}>COFFEE ETIQUETTE</a></li>
+                    <li><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span><a href="/post5" style={{textDecoration:'none', color:'#6d6f6c'}}>10 Most Common Etiquette Mistakes</a></li>
                   </ul>
               </div>
 
@@ -49,7 +49,7 @@ function Footer() {
                   <h4>Popular Courses</h4>
                   <ul>
                     <li> <a href="/airportmanagement" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Airport Management </a></li>
-                    <li> <a href="/groundstaffing" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;Aviation,  Ground Staffing Training </a></li>
+                    <li> <a href="/groundstaff" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;Aviation,  Ground Staffing Training </a></li>
                     <li> <a href="/ticketing" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Ticketing </a></li>
                     <li> <a href="/cabincrew" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Cabin Crew</a></li>
                     <li> <a href="/cargo" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Cargo Course</a></li>

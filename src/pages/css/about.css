@@ -160,3 +160,27 @@
         margin-left: 1.8rem;
     }
 }
+@media screen and (min-width:481px) and (max-width:1024px) {
+    .about-main
+    {
+        display: flex;
+        flex-direction: column-reverse !important;
+    }
+    .about-main .left img {
+        width: 90%;
+        align-items: center;
+        height: 25rem;
+        margin-top: 4rem;
+    }
+    .about-buttons{
+        display: flex;
+        justify-content: center;
+    }
+    .miss-viss-content
+    {
+        display: flex;
+        flex-direction: column;
+       
+        margin-left: 3rem;
+    }
+}

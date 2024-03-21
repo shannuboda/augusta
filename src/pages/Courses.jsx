@@ -73,7 +73,7 @@ function Courses() {
           <div className="item-des">
             <h6>The aviation industry is on the precipice of an exponential growth surge, with estimates that India will need 400 airports.</h6>
           </div>
-          <a href="/ticketing" className='item-link'>Read More &#8594;</a>      
+          <p className='item-link'>Read More &#8594;</p>      
           </Item>
         </Grid>
 

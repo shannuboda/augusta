@@ -100,3 +100,43 @@
     }
    
 }
+
+
+@media screen and (min-width:481px) and (max-width:1024px) {
+    .home-1
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0rem;
+        margin-right: 2rem;
+    }
+    .home1_2 img{
+        float: left;
+        width: 47rem  !important;
+        margin-left: 0rem;
+        margin-bottom: 2rem;
+    }
+    .home1_1 h1
+    {
+        padding-right: 1rem !important;
+        margin-left: -1rem;
+    }
+    .home1_1 p{
+        margin-left: -1rem;
+        width: auto;
+    }
+    .home1_1 img {
+        width: 9.9rem;
+        margin-bottom: 1.9rem;
+    }
+    .home1_1 .buttons{
+        margin-top: -2rem;
+        margin-bottom: 2rem;
+    }
+    .home1_1 .buttons button:nth-child(2)
+    {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+   
+}

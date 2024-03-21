@@ -44,7 +44,7 @@ function About() {
               Solutions
             </button>
           </div>
-          <div>
+          <div className="miss-viss-content">
             {activeButton === "button1" && <div> 
 
                         <div className="button1-content">
@@ -72,10 +72,10 @@ function About() {
 
                 </div>}
             {activeButton === "button2" && 
-                <div> 
+                <div className=""> 
 
                 <div className="button1-content">
-                    <img src="/src/pages/assets/logo.png" alt="" />
+                    <img src={logo} alt="" />
                     <h5>To be the Primo in Establishing and Providing Progressive, Competent and World Class Education and Empowerment Solutions in the fields of </h5>
                 </div>
                 <div className="buttongrid-1">
@@ -100,13 +100,13 @@ function About() {
         </div>
             }
 
-            {activeButton === "button3" && <div>
+            {activeButton === "button3" && <div className="miss-viss-content">
             <div className="button1-content">
-                    <img src="/src/pages/assets/logo.png" alt="" />
+                    <img src={logo} alt="" />
                     <h5>To be a globally recognized Academy and diversified education solutions provider, we innovate dynamic products, services, resources and research-based solutions in accordance with global standards in Aviation and Hospitality. </h5>
                     
                 </div>
-                <a href="#" className="readmore">Read More...</a>
+                
                 </div>}
           </div>
         </div>

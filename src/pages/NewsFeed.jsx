@@ -51,7 +51,7 @@ function NewsFeed() {
               becoming a good conversationalist.
             </Card.Text>
           </Card.Body>
-          <a href="#" className="item-link1">
+          <a href="/post11" className="item-link1">
             Read More &#8594;
           </a>
         </Card>
@@ -89,7 +89,7 @@ function NewsFeed() {
             I previously failed a voice test. I was the only one in class who did not pass, so I was.
             </Card.Text>
           </Card.Body>
-          <a href="#" className="item-link1">
+          <a href="/post10" className="item-link1">
             Read More &#8594;
           </a>
         </Card>
@@ -126,7 +126,7 @@ function NewsFeed() {
             When we look at someone who appears to be confident, we cannot always pinpoint one factor that we believe makes.
             </Card.Text>
           </Card.Body>
-          <a href="#" className="item-link1">
+          <a href="/post9" className="item-link1">
             Read More &#8594;
           </a>
         </Card>
