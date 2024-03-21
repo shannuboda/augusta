@@ -38,11 +38,11 @@ function Footer() {
               <div className="f2_1">
                   <h4>Latest Posts</h4>
                   <ul>
-                    <li onClick={()=>{Navigate('/post1')}}><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>How To Be Motivated</li>
-                    <li onClick={()=>{Navigate('/post2')}}><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>The Corporate Handshake Etiquette</li>
-                    <li onClick={()=>{Navigate('/post3')}}><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>How To Be Self-Disciplined</li>
-                    <li onClick={()=>{Navigate('/post4')}}><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>COFFEE ETIQUETTE</li>
-                    <li onClick={()=>{Navigate('/post5')}}><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>10 Most Common Etiquette Mistakes</li>
+                    <li onClick={()=>{Navigate('/post1')}} style={{cursor:'pointer'}}><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>How To Be Motivated</li>
+                    <li onClick={()=>{Navigate('/post2')}} style={{cursor:'pointer'}}><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>The Corporate Handshake Etiquette</li>
+                    <li onClick={()=>{Navigate('/post3')}} style={{cursor:'pointer'}}><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>How To Be Self-Disciplined</li>
+                    <li onClick={()=>{Navigate('/post4')}} style={{cursor:'pointer'}}><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>COFFEE ETIQUETTE</li>
+                    <li onClick={()=>{Navigate('/post5')}} style={{cursor:'pointer'}}><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>10 Most Common Etiquette Mistakes</li>
                   </ul>
               </div>
 

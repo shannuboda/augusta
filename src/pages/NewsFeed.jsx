@@ -5,8 +5,10 @@ import Button from "react-bootstrap/Button";
 import im9 from './assets/Privacy-Policy-555x360.jpg'
 import im10 from './assets/Good-Speaker-555x400.jpg'
 import im11 from './assets/Good-Listner-555x400.jpg'
+import { useNavigate } from "react-router-dom";
 
 function NewsFeed() {
+  const Navigate = useNavigate()
   return (
     <div>
       <div className="r">
@@ -51,9 +53,9 @@ function NewsFeed() {
               becoming a good conversationalist.
             </Card.Text>
           </Card.Body>
-          <a href="/post11" className="item-link1">
+          <span onClick={()=>{Navigate('/post11')}} className="item-link1" style={{cursor:'pointer'}}>
             Read More &#8594;
-          </a>
+          </span>
         </Card>
         <Card
           outline
@@ -89,9 +91,9 @@ function NewsFeed() {
             I previously failed a voice test. I was the only one in class who did not pass, so I was.
             </Card.Text>
           </Card.Body>
-          <a href="/post10" className="item-link1">
+          <span onClick={()=>{Navigate('/post10')}} className="item-link1" style={{cursor:'pointer'}}>
             Read More &#8594;
-          </a>
+          </span>
         </Card>
         <Card
           outline
@@ -126,9 +128,9 @@ function NewsFeed() {
             When we look at someone who appears to be confident, we cannot always pinpoint one factor that we believe makes.
             </Card.Text>
           </Card.Body>
-          <a href="/post9" className="item-link1">
+          <span onClick={()=>{Navigate('/post9')}} className="item-link1" style={{cursor:'pointer'}}>
             Read More &#8594;
-          </a>
+          </span>
         </Card>
       </div>
     </div>
