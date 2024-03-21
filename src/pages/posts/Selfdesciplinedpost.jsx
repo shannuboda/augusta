@@ -1,7 +1,13 @@
 import React from "react";
 import im1 from "../assets/self-disciplined-555x400.png";
+import { useEffect } from "react";
+
 
 function Selfdesciplinedpost() {
+  useEffect(() => {
+    // Scroll to the top of the page when the component is loaded
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="cargobanner">

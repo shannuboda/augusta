@@ -4,7 +4,12 @@ import im2 from "../css/subpagescss/images/coffe1.png";
 import im3 from "../css/subpagescss/images/coffe2.png";
 import im4 from "../css/subpagescss/images/coffe3.png";
 import im5 from "../css/subpagescss/images/coffe4.png";
+import { useEffect } from "react";
 function CoffePost() {
+  useEffect(() => {
+    // Scroll to the top of the page when the component is loaded
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="cargobanner">

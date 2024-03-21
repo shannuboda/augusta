@@ -1,8 +1,10 @@
 import React from 'react';
+import { useEffect } from "react"
+import { useNavigate } from 'react-router-dom';
 
 const BlogCards = ({b1}) => {
   console.log(b1);
- 
+  const Navigate = useNavigate()
     return (
         <div>
            <div className="blog-card">
@@ -16,7 +18,7 @@ const BlogCards = ({b1}) => {
                 </div>
                 <h1>{b1.title}</h1>
                 <p>{b1.description}</p>
-                <span><a href={b1.link}>Read More...</a></span>
+                <span style={{float:'right', cursor:'pointer'}}onClick={()=>{Navigate(b1.link)}} >Read More...</span>
             </div>
           </div> 
         </div>

@@ -1,6 +1,12 @@
 import React from 'react'
 import im1 from '../assets/What-are-Email-Etiquettes-555x400.png'
+import { useEffect } from "react";
+
 function Email() {
+  useEffect(() => {
+    // Scroll to the top of the page when the component is loaded
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
         <div className="cargobanner">

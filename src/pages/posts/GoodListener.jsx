@@ -1,6 +1,12 @@
 import React from "react";
 import im1 from "../assets/Good-Listner-555x400.jpg";
+import { useEffect } from "react";
+
 function GoodListener() {
+  useEffect(() => {
+    // Scroll to the top of the page when the component is loaded
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="cargobanner">
