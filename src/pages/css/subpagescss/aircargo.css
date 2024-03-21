@@ -28,11 +28,13 @@
   {
     font-weight: 500;
     font-size: 3rem;
+    text-align: center;
     
   }
   .cargobanner p
   {
     font-size: 2rem;
+    text-align: center;
   }
   .cargo-depts h4{
     font-size: large;

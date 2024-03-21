@@ -19,7 +19,7 @@ function Blog() {
 
    { im1:im1,
     date:'19 September 2012',
-    author: 'John Doe',
+    author: 'Ankruti Sharma',
     title: 'How to Stay Motivated?',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. At quia quidem placeat sed architecto deleniti illo nihil fuga est expedita.',
     link:'/post1'
@@ -28,7 +28,7 @@ function Blog() {
 {
     im1:im2,
     date:'19 September 2012',
-    author: 'John Doe',
+    author: 'Ankruti Sharma',
     title: 'The Corporate Handshake Etiquette',
     description: 'The Corporate Handshake Etiquette ByMs. Anukriti SharmaCommunication Skills and Etiquette Trainer Now that life has returned to normal, we are...',
     link:'/post2'
@@ -36,7 +36,7 @@ function Blog() {
   {
     im1:im3,
     date:'29 September 2012',
-    author: 'John Doe',
+    author: 'Ankruti Sharma',
     title: 'How to be self-disciplined',
     description: 'How to be self-disciplined ByMs. Anukriti SharmaCommunication Skills and Etiquette Trainer What is discipline? Discipline is a set of guidelines...',
     link:'/post3'
@@ -45,7 +45,7 @@ function Blog() {
   {
     im1:im4,
     date:'39 September 2012',
-    author: 'John Doe',
+    author: 'Ankruti Sharma',
     title: 'COFFEE ETIQUETTE',
     description: 'HISTORY There are two stories about the discovery of coffee beans and their origin. According to one legend, they were...',
     link:'/post4'
@@ -53,7 +53,7 @@ function Blog() {
   {
     im1:im5,
     date:'39 September 2012',
-    author: 'John Doe',
+    author: 'Ankruti Sharma',
     title: '10 Most Common Etiquette Mistakes',
     description: '10 Most Common Etiquette Mistakes Etiquette is important, and many people make etiquette mistakes unconsciously. Here are a few of...',
     link:'/post5'
@@ -62,7 +62,7 @@ function Blog() {
   {
     im1:im6,
     date:'39 September 2012',
-    author: 'John Doe',
+    author: 'Ankruti Sharma',
     title: 'HOTEL MANAGEMENT TIPS',
     description: 'HOTEL MANAGEMENT TIPS ByMs. Anukriti SharmaCommunication Skills and Etiquette Trainer WHAT IS HOTEL FRONT OFFICE DEPARTMENT The front office is....',
     link:'/post6'
@@ -71,7 +71,7 @@ function Blog() {
   {
     im1:im7,
     date:'39 September 2012',
-    author: 'John Doe',
+    author: 'Ankruti Sharma',
     title: 'Email Etiquette',
     description: '“ Today, we can t imagine our lives without email. We wake up responding to an email. We go to bed....',
     link:'/post7'
@@ -79,7 +79,7 @@ function Blog() {
   {
     im1:im8,
     date:'39 September 2012',
-    author: 'John Doe',
+    author: 'Ankruti Sharma',
     title: 'How to Prepare for a Job Interview',
     description: 'What is a job interview?  “ A job interview is the final stage of a recruitment process in which interviewers,...',
     link:'/post8'
@@ -88,7 +88,7 @@ function Blog() {
   {
     im1:im9,
     date:'39 September 2012',
-    author: 'John Doe',
+    author: 'Ankruti Sharma',
     title: 'Tips To Make You More Confident',
     description: 'When we look at someone who appears to be confident, we cannot always pinpoint one factor that we believe makes....',
     link:'/post9'
@@ -98,7 +98,7 @@ function Blog() {
   {
     im1:im10,
     date:'39 September 2012',
-    author: 'John Doe',
+    author: 'Ankruti Sharma',
     title: 'How To Be A Good Speaker',
     description: 'I previously failed a voice test. I was the only one in class who did not pass, so I was...',
     link:'/post10'
@@ -106,7 +106,7 @@ function Blog() {
   {
     im1:im11,
     date:'39 September 2012',
-    author: 'John Doe',
+    author: 'Ankruti Sharma',
     title: 'How to be a good listener',
     description: 'I believe that being a good listener is a crucial element in becoming a good conversationalist.  Listening and actively listening....',
     link:'/post11'

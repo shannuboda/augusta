@@ -121,7 +121,53 @@
   {
     font-size: 1.2rem;
   }
-  @media screen and (min-width:320px) and (max-width:480px) {
+  @media screen and (min-width:320px) and (max-width:340px) {
+    .foot-main
+{
+ 
+    background:hsl(46, 100%, 84%);
+    padding: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.f1{
+  padding: 0;
+}
+.f1 h3{
+  margin-left: 1rem!important;
+}
+.f1 h3 span{
+  font-size: 1.1rem;
+  
+}
+.f1_1{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  max-width: 20rem;
+}
+.f1_1 .mail{
+  margin-top: 2rem!important;
+}
+
+.foot-part-2{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+.f2_1{
+  margin-left: 1rem;
+}
+.f2_2{
+  margin-left: 1rem;
+}
+
+  }
+
+
+  @media screen and (min-width:341px) and (max-width:480px) {
     .foot-main
 {
  

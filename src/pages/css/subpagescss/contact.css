@@ -115,3 +115,102 @@
 {
   transform: scale(1.1); 
 }
+
+
+@media screen and (min-width:320px) and (max-width:375px) {
+  .contact_1
+{
+  margin-left: -1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+ 
+  /* Create a responsive grid with minimum width of 200px */
+}
+.contact_1 {
+  padding: 1rem 
+}
+.contact_1_2{
+  width: 90rem !important;
+  align-items: center;
+}
+.contact_1 {
+  padding: 0rem 
+}
+.conform {
+  border: 2px solid red;
+  padding: 0rem;
+  background-image: url(https://img.freepik.com/free-photo/blue-abstract-gradient-wave-wallpaper_53876-108364.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form1 {
+  height: 3rem;
+  border-radius: 2rem;
+  font-family: "Ubuntu", sans-serif;
+  width: 18rem;
+  margin-left: -2rem;
+}
+}
+
+@media screen and (min-width:376px) and (max-width:768px) {
+  .contact_1
+{
+  margin-left: -6rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* Create a responsive grid with minimum width of 200px */
+}
+.contact_1 {
+  padding: 3rem 
+}
+.contact_1_2{
+  width: auto !important;
+  max-width: 20rem;
+  align-items: center;
+}
+.conform {
+  border: 2px solid red;
+  padding: 0rem;
+  background-image: url(https://img.freepik.com/free-photo/blue-abstract-gradient-wave-wallpaper_53876-108364.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form1 {
+  height: 3rem;
+  border-radius: 2rem;
+  font-family: "Ubuntu", sans-serif;
+  width: 18rem;
+  margin-left: -2rem;
+}
+}
+
+
+@media screen and (min-width:769px) and (max-width:1160px) {
+  .contact_1
+{
+  margin-left: -3rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* Create a responsive grid with minimum width of 200px */
+}
+.contact_1 {
+  padding: 3rem 
+}
+.contact_1_2{
+  width: auto !important;
+  max-width: 29rem;
+  align-items: center;
+}
+.m1 {
+  margin-top: -9rem !important 
+}
+
+
+}

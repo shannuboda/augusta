@@ -198,8 +198,8 @@ function ContactUs() {
           />
         </div>
         <div
-          className="form-group"
-          style={{ padding: "4rem", marginTop: "-9rem" }}
+          className="form-group m1"
+          style={{ padding: "4rem", marginTop: "-6rem" }}
         >
           <label htmlFor="inputAddress2">Your Message</label>
           <input

@@ -117,8 +117,57 @@
 {
     text-decoration: underline;
 }
-
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width:320px) and (max-width:374px) {
+    .about-main
+    {
+        display: flex;
+        flex-direction: column !important;
+    }
+    .r1 h1{
+        font-size: 2.8rem !important;
+    }
+    .about-buttons{
+        display: flex;
+        width: 20rem;
+    margin-left: 1rem; 
+       
+    }
+    .button1-content {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: -2rem;
+        max-width: 15rem;
+        margin-top: 2rem;
+        margin-left: 4rem;}
+    .button1-content img {
+        display: none;
+    }
+    .button1-content h5{
+        margin-left: -1rem;
+    }
+    .about-buttons button{
+        width: 5.5rem;
+        height: 3.5rem;
+        margin-right: 1.8rem;
+    }
+    .button1-content h5{
+        font-size: 1rem;
+        max-width: 20rem;
+        margin-left: -2rem;
+    }
+    .about-main .left img{
+        width: 22rem;
+        margin-left: -0.1rem;
+    }
+    .buttongrid-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        margin-left: 1.8rem;
+    }
+}
+@media screen and (min-width:375px) and (max-width:480px) {
     .about-main
     {
         display: flex;
