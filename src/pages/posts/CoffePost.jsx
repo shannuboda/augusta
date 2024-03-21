@@ -1,10 +1,13 @@
-import React from 'react'
+import React from "react";
 import im1 from "../assets/coffe.png";
-
+import im2 from "../css/subpagescss/images/coffe1.png";
+import im3 from "../css/subpagescss/images/coffe2.png";
+import im4 from "../css/subpagescss/images/coffe3.png";
+import im5 from "../css/subpagescss/images/coffe4.png";
 function CoffePost() {
   return (
     <div>
-        <div className="cargobanner">
+      <div className="cargobanner">
         <h3>The COFFEE ETIQUETTE</h3>
         <p>Home > Blog > The COFFEE ETIQUETTE</p>
       </div>
@@ -17,260 +20,179 @@ function CoffePost() {
         <img src={im1} alt="" srcset="" />
         <h4>History</h4>
         <p>
-          Before we go into the specifics of the correct and improper
-          handshakes, let’s look at their history. Handshakes with other people
-          date back to the 5th century BC in Greece. Soldiers used to greet each
-          other in this manner to see if the other person was carrying any
-          weapons or not.
+          There are two stories about the discovery of coffee beans and their
+          origin.
           <br />
           <br />
-          It implies that they’re coming to welcome each other unarmed, with no
-          knife or weapon in their arms, and they are making the gesture of
-          shaking hands with the other person to signify peace and harmony.
+          According to one legend, they were discovered by goats in Ethiopia.
+          The goats ate those cherries while grazing and became very energized.
           <br />
           <br />
-          Though the concept of assessing if the other person has a weapon has
-          evolved over time. The handshaking motion indicates that we are
-          working to build a connection and rapport with the person we are
-          meeting for the first time or perhaps we’re meeting repeatedly.
+          The second story goes that they were discovered by a sheik named Omar
+          in Yemen, who was rejected by society, went to live in a cave, and
+          while there, he ate those cherries to make himself feel full for the
+          day.
+          <br />
+          <br />
+          Whatever story you choose to believe, the truth is that coffee is a
+          very energizing drink that also temporarily suppresses your appetite.
+          <br />
+          <br />
+          Sufis, in fact, used to drink coffee to stay awake during night
+          prayers and meditation. Despite its popularity, coffee was still
+          regarded as a pagan dream by Christians, so it took some time for
+          Europeans to develop a taste for it. In the 16th century, the Dutch
+          established the first coffee plantation in Sri Lanka.
+          <br />
+          <br />
+          Over time, more and more coffee shops sprang up in Europe, where
+          intellectuals would congregate to share their grand visions and
+          discuss brilliant ideas. As a result, coffee shops in the United
+          Kingdom were labeled “Penny Universities.” Pennies because that was
+          the cost of coffee, and universities because this was a gathering
+          place for intellectuals to share their big ideas.
+          <br />
+          <br />
+          Coffee is still the second most consumed beverage after water, and it
+          is the second most treated commodity after petroleum. So, having
+          written so much about “Coffee”, you might be wondering, “Why do I need
+          to read a blog on Coffee when I am applying for a job in the Aviation
+          or the Hospitality industry?”
+          <br />
+          <br />
+          Right? Well, here’s your answer: Coffee is a famous beverage that is
+          beneficial in boosting our energy level. The cherry on top of the cake
+          is that coffee works wonders to increase our energy level, promote
+          weight loss, etc.
+          <br />
+          <br />
+          Coffee is considered to be the most profitable item in the hotel
+          industry. It will sound ironic because coffee is not included in any
+          menu list offered by a hotel. Coffee is cost-effective compared with
+          other products sold on the same day at different rates.
+          <br />
+          <br />
+          For instance, bottled water costs twice as much as coffee. If you need
+          proof, visit your neighborhood’s nearest hotel restaurant or beverage
+          dispensary and ask about the price of a cup of coffee. Coffee
+          represents 50% to 80% percent of annual sales in restaurants and 25%
+          to 40% in cafeterias. We will mainly discuss two significant reasons
+          why coffee is considered an essential commodity in hotels: economic
+          profits and health benefits.
+          <br />
+          <br />
+          Hotels use coffee to create social events by providing complimentary
+          beverages for guests and visitors. Coffee is the most popular drink
+          served in hotels, representing 50% to 80% of annual sales in
+          restaurants and 25% to 40% in cafeterias. Many people consider coffee
+          a “drinking ritual” that comforts customers during their interaction
+          with others. Coffee can also be used to create an intimate environment
+          for guests, who are mostly strangers. Perhaps because of its high
+          demand within the hospitality industry that comforts customers, coffee
+          has become one of the nation’s most significant sources of revenue
+          after alcoholic drinks.
+          <br />
+          <br />
+          One of the most important elements of a modern hotel property is its
+          coffee service, both within the guestroom and at any restaurant
+          outlet. Given this beverage’s significance in everyday life, it’s a
+          definite no-no for a hotel that cuts corners in its procurement and
+          preparation of this brown elixir. Hardly a drug, though, coffee is not
+          only big business but an aspect of our culture that continues to
+          evolve. To witness this evolution, look no further than guests’
+          expectations for a property’s in-room coffee and tea service. Within
+          the past decade, we’ve seen a migration from metal foil sachets, to
+          Keurig, Nespresso and a host of other machines capable of delivering a
+          more flavorful and bespoke experience. Complementing this, most hotel
+          restaurants offer barista levels of services with cappuccinos, lattes
+          and espressos the norm along with a few custom creations in tune with
+          the local market. Even basic by-the-gallon foodservice grinds like
+          what you would find in a breakfast buffet are far better than they
+          ever used to be.
+          <br />
+          <br />
+          Coffee is a cherry, and the coffee bean inside is a pit within that
+          cherry. Coffee is grown in two regions: the lowlands and the
+          highlands. Indonesia is an example of a lowland. Because this is where
+          there is a lot of oxygen, the crops that grow here tend to be more
+          bitter but less acidic. Starbucks sources a large portion of its
+          coffee from the lowlands. Coffee grown in the highlands can be found
+          in Ethiopia or Kenya. Because there is less oxygen in the highlands,
+          crops require more energy to grow. This is why coffee beans have a
+          more acidic taste, but they are less bitter and have a more natural
+          taste of coffee, so they taste fruitier.
         </p>
 
-        <h4>BAD HANDSHAKES</h4>
+        <h4>Process Methods</h4>
         <hr />
         <div className="ways">
-          <h4> 1. FINGERELLA</h4>
+          <h4> 1. Washed method</h4>
           <p>
-            Fingerella is the name given to the first handshake. As the name
-            implies, this type of handshake just involves fingers. When you
-            extend a portion of your hand to shake hands with someone, they will
-            extend their fingers rather than their complete hand.
-            <br />
-            <br />
-            Unfortunately, women are worse at it, either because they are shy
-            and don’t want to go for a handshake, or because they stretch their
-            fingers for a hand kiss and the man doesn’t understand and instead
-            gives them a handshake. In any case, if you’re guilty of the
-            fingerella handshake, try to stop doing it. If you want to shake
-            hands, you should extend your entire hand rather than just your
-            fingers. Try it at home by asking your sibling, partner, or friend
-            to shake your hand using their fingers instead of their hand. And
-            once you’ve given them a handshake or a finger shake, consider what
-            type of impact you made on them.
-            <br />
-            <br />
-            What would you say to someone who just gave their fingers in a
-            handshake? You’d probably use adjectives like timid, untrustworthy,
-            and possibly not confident, which are qualities you don’t want to be
-            associated with. So, if you want to make a strong, confident
-            impression on someone, offer your entire hand rather than just your
-            fingers.
+          As the name implies, the washed method is when these beans are washed with water. First, they are de-pulled, removed, and washed the cherry.
+          <ul style={{listStyleType:'disc'}}>
+            <li>This is more expensive.</li>
+            <li>It preserves the flavor of coffee beans better.</li>
+            <li>The natural flavor is retained.</li>
+            <li> Beans have wings running through them.</li>
+          </ul>
           </p>
         </div>
 
         <div className="ways">
-          <h4>2. WET HANDSHAKE</h4>
+          <h4>2. Natural method</h4>
           <p>
-            The wet handshake is the second unappealing handshake. As the name
-            implies, this is what happens when you shake someone’s hand while
-            their palms are wet.
-            <br />
-            <br />
-            Here are a few tips to avoid this type of a handshake.
-            <br />
-            <br />
-            If this is due to a hereditary predisposition, medical therapy, such
-            as buttocks into your hands, may be able to help you overcome the
-            problem. However, you should consult your doctor. You could use baby
-            powder. Dust it lightly within your palms. Using makeup wipes is a
-            good option. You might also use those wipes to blot the inside of
-            your palms, so they aren’t damp before you give your hand for a
-            handshake, especially if you have oily skin. Another old trick is to
-            have a handkerchief with you so you may gently pat it on the insides
-            of your palms to make them drier when you extend your hands for a
-            handshake. Another reason for a wet handshake is that you’ve most
-            likely been holding a glass of cold champagne or wine in your right
-            hand. When you’re out and about at a social networking event, and
-            you’re offered glasses of alcoholic or non-alcoholic cold drinks,
-            you’re holding one.
-            <br />
-            <br />
-            And when it comes time to shake hands, your hand is damp from the
-            glass. In that case, I would recommend always holding the glass in
-            your left hand so that your right hand is always dry and ready to be
-            offered for a proper handshake. Even if you have developed the
-            technique of a perfect handshake, if your palms were wet when you
-            extended your hand to someone else, I guarantee you that the
-            lingering aftertaste of your handshake will be unpleasant.
+          In this method, the coffee ferment alongside the cherries.
+            <ul style={{listStyleType:'disc'}}>
+            <li>The bean has a creamier texture.</li>
+            <li>It has a less intense flavor.</li>
+            <li>It has a closer resemblance to the cherry taste.</li>
+            <li>Beans do not have wings.</li>
+          </ul>
+           
           </p>
         </div>
-
-        <div className="ways">
-          <h4>3. BONE CRUSHER</h4>
-          <p>
-            The third bad handshake is known as a bone crusher. Again, as the
-            name implies, this type of handshake attempts to demonstrate that
-            they have a firm handshake when, in fact, they do not. It’s only
-            trying to break your bones. It’s painful. That handshake is so
-            unpleasant that you want to get rid of it as soon as possible.
-            <br />
-            <br />
-            If you know someone who does that, I’m sure you don’t have a good
-            feeling about them. And if you are guilty of doing so, try to avoid
-            it.
-            <br />
-            <br />
-            When trying to gain power, avoid causing harm to others’ hands. A
-            firm, engaged handshake, rather than one that crushes other people’s
-            bones, establishes power. Also, for women, especially those who
-            enjoy wearing large rings, when you’re out and about to meet someone
-            or greet someone you know, you’ll be offering your hand for a
-            handshake frequently. Make sure you don’t have any heavy rings on
-            your right hand. Change it to the left hand so that the rings on the
-            right are more delicate. So that when you shake someone’s hand, you
-            don’t hurt it. If you’re a Bonecrusher or know someone who does the
-            bone crush handshake, you should know that they’re never the most
-            powerful. They’re the ones who want to appear to be.
-          </p>
-        </div>
-
-        <div className="ways">
-          <h4>4. DEAD FISH</h4>
-          <p>
-            The dead fish is the term given to the fourth bad handshake. As the
-            term suggests, that means inactive or not engaged. The other person
-            who offered you their hand in a dead fish manner is when they offer
-            their hand, and it is not engaged in a handshaking process. So,
-            they’re offering their hand to be shaken rather than shaking yours.
-            <br />
-            <br />
-            So, when someone offers you dead fish, you may have the impression
-            that person lacks initiation skills, lacks leadership skills, is not
-            very proactive, and does not take initiative.
-            <br />
-            <br />
-            It’s not a pleasant sensation, so if you’re guilty of doing dead
-            fish, try to engage your hand in the handshake. Do not simply extend
-            your hand for a handshake. Shake the other person’s hand as well.
-          </p>
-        </div>
-
-        <div className="ways">
-          <h4>5. BENT-ARM PULL IN</h4>
-          <p>
-            The fifth bad handshake is known as a bent arm pull-in. This is the
-            type of gesture that President Donald Trump has made with other
-            world leaders on numerous occasions, and I assure you that it did
-            not make them feel at ease.
-            <br />
-            <br />
-            This is when the person greets you, shakes your hand, and then pulls
-            your arm closer to them. Some people in certain cultures despise
-            closeness. Keep in mind that they have more personal space. When
-            greeting someone with a handshake, you must maintain the proper
-            distance.
-          </p>
-        </div>
-
-        <div className="ways">
-          <h4>6. AGGRESSIVE PUMPER</h4>
-          <p>
-            The sixth poor handshake is called an aggressive pumper. As the name
-            implies, it’s understandable that the person greeting you with a
-            handshake is holding your hand for an extended period and pumping it
-            very forcefully up and down.
-            <br />
-            <br />
-            Again, President Donald Trump was guilty of this, and he has made
-            many world leaders uncomfortable as a result. You can see a video of
-            President Donald Trump greeting Japanese Prime Minister Shinzo Abe.
-            That put him in a very awkward position.
-            <br />
-            <br />
-            So, when greeting people from other cultures, remember that not
-            everyone enjoys prolonged physical contact.
-          </p>
-        </div>
-
+        <h2>So, in which cup to serve coffee?</h2>
+        <p>It depends on a couple of reasons: type of drink, the occasion or the formality of the event, and the time of the day.</p>
         <hr />
-        <h2>PERFECT HANDSHAKE</h2>
-        <div className="ways">
-          <h4> 1. WRAP FINGERS</h4>
-          <p>
-            When you do a handshake, you extend your hands straight in a line
-            parallel to your natural body line. Then, make sure your fingers are
-            wrapped around the hand of the person you’re greeting. This process
-            involves your fingers as well
-          </p>
-        </div>
+          <div className="sub-depts">
+            <h4>1. Mug</h4>
+            <p>It has a thick handle, no saucer, and usually comes in a very large size, as seen here. In the morning, you might expect a filtered coffee or an americano served in a mug from a hotel, or this could be your preferred method of enjoying coffee at home.</p>
+            <img src={im2} alt="" srcset="" />
+          </div>
 
-        <div className="ways">
-          <h4>2. WEB TO WEB</h4>
-          <p>
-            Number two rule. When you go for a handshake, make sure that the web
-            of your hand touches the web of the other person’s hand so that you
-            can feel the connection. This will help you in establishing a more
-            rapid or otherwise trustworthy relationship with the other person.
-          </p>
-        </div>
+          <div className="sub-depts">
+            <h4>2. Coffe Cup</h4>
+            <p>*Tea Cup (left) and Coffee Cup (right)*
 
-        <div className="ways">
-          <h4>3. FIRM GRIP</h4>
-          <p>
-            Make sure to shake the hand firmly now that your hands are
-            connected, web to web fingers wrapped around the other hand. Firmly
-            implies that you must feel the other person’s hand in yours and
-            actively participate in the handshake. You do not simply extend your
-            hand to be shaken, nor do you attempt to bone crush the other
-            person’s hand.
-          </p>
-        </div>
+The more formal coffee is served in a regular coffee cup that looks like this. The shape and form of a regular coffee cup differ from that of a teacup. Looking at these two, you can tell that a coffee cup is narrower and straight, whereas a teacup has a smaller, narrower bottom and a wider rim, which flares up like a flower.
 
-        <div className="ways">
-          <h4>4. ELBOWS AT 90 DEGREES</h4>
-          <p>
-            The fourth rule is that your elbow should be at 90 degrees, but this
-            can vary depending on the situation.
-            <br />
-            <br />
-            If you’re standing up to meet someone who is seated, or if you’re
-            seated but can’t get up for some reason, you’re meeting someone who
-            is standing, this trajectory can change.
-            <br />
-            <br />
-            However, when both of you are standing, your elbows should be at 90
-            degrees.
-          </p>
-        </div>
+At the end of a meal at a restaurant, you can expect to get your coffee in a regular coffee cup. You could get a filtered coffee or an americano, or it could be a drink you enjoy, so this would be reserved for that.</p>
+            <img src={im3} alt="" srcset="" />
 
-        <div className="ways">
-          <h4>5. 3-5 PUMPS</h4>
-          <p>
-            Remember the intense pumper who would pump it for hours on end? The
-            general rule for a proper handshake, in this case, is 3 to 5 pumps.
-            <br />
-            <br />
-            If you do less than three pumps, it may appear that you are shy,
-            insecure, and untrustworthy because you are attempting to avoid the
-            handshake as soon as possible. However, if you extend the handshake
-            for more than five pumps in an aggressive manner, it may indicate
-            that you are attempting to establish dominance, that you are being
-            aggressive, and that you are possibly being pushy.
-          </p>
-        </div>
+          </div>
 
-        <div className="ways">
-          <h4>6. “UP AND DOWN” MOTION</h4>
-          <p>
-            The sixth rule for a perfect handshake is that it should be done in
-            an up and down motion. It shouldn’t be side to side. It’s not moving
-            in a wavelike fashion. Keep in mind that you must pump your hand up
-            and down.
-          </p>
-        </div>
+          <div className="sub-depts">
+            <h4>Turkish Coffe Cup</h4>
+            <p>This cup is used to serve Turkish coffee, though you can also get Turkish coffee in a demitasse. The coffee has a wider bottom and narrows as it approaches the top of the cup.</p>
+          <img src={im4} alt="" srcset="" />
+
+          </div>
+
+          <div className="sub-depts">
+            <h4>Demitasse</h4>
+            <p>This is the final cup I’ll show you, and it’s called a demitasse, which means “half cup” in French. When comparing the size of a demitasse and a regular coffee cup, the demitasse is much smaller, almost half the size of a regular coffee cup.
+<br />
+You might expect to receive your Turkish coffee, espresso, or other strong beverage in a small demitasse cup.
+<br />
+This cup is typically reserved for more formal occasions, and you can expect to receive your drink at the end of the meal, such as at a wedding reception or other formal gathering.</p>
+            <img src={im5} alt="" srcset="" />
+
+          </div>
+
+
       </div>
-
     </div>
-  )
+  );
 }
 
-export default CoffePost
+export default CoffePost;

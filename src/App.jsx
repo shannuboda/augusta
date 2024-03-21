@@ -23,6 +23,14 @@ import Sevenwayspost from './pages/posts/Sevenwayspost';
 import HandShakepost from './pages/posts/HandShakepost';
 import Selfdesciplinedpost from './pages/posts/Selfdesciplinedpost';
 import CoffePost from './pages/posts/CoffePost';
+import CommonMistakes from './pages/posts/CommonMistakes';
+import HotelManagementTips from './pages/posts/HotelManagementTips';
+import Email from './pages/posts/Email';
+import Interview from './pages/posts/Interview';
+import Confident from './pages/posts/Confident';
+import GoodListener from './pages/posts/GoodListener';
+import GoodSpeaker from './pages/posts/GoodSpeaker';
+
 
 function App() {
 
@@ -54,6 +62,13 @@ function App() {
         <Route path ='/post2' element={<HandShakepost></HandShakepost>} />
         <Route path ='/post3' element={<Selfdesciplinedpost></Selfdesciplinedpost>} />
         <Route path='/post4' element={<CoffePost></CoffePost>} />
+        <Route path='/post5' element={<CommonMistakes></CommonMistakes>} />
+        <Route path='/post6' element={<HotelManagementTips></HotelManagementTips>} />
+        <Route path='/post7' element={<Email></Email>} />
+        <Route path='/post8' element = {<Interview></Interview>} />
+        <Route path='/post9' element = {<Confident></Confident>} />
+        <Route path='/post10' element={<GoodSpeaker></GoodSpeaker>}></Route>
+        <Route path='/post11' element={<GoodListener></GoodListener>} />
       </Routes>
      <Footer></Footer>
     </div>

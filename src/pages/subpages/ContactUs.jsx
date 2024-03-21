@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "../css/subpagescss/contact.css";
 import Card from "react-bootstrap/Card";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,6 +7,51 @@ import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
  
 function ContactUs() {
+  const [formData, setFormData] = useState({
+    Fname: "",
+    Lname: "",
+    Contactemail: "",
+    Contactphone: "",
+    Subject:"", 
+    Comment: "",
+    Date:new Date().toISOString(),
+  });
+  const handleChange = (e)=>{
+    setFormData({
+      ...formData,
+      [e.target.name]:e.target.value,
+    })
+  }
+ const doSubmit = (event) =>{
+   event.preventDefault();
+   console.log(event.target);
+    // const formDatab = new FormData(formData);
+    // console.log(formDatab);
+    fetch(
+      "https://script.google.com/macros/s/AKfycbysMSIRLB48TmxoKf9Jwr1lvleTMaS29BL8EVwWSMN4tDCBGyc4Uon2ThxArbnZHQsk/exec",
+      {
+        method: "POST",
+        body: new FormData(event.target),
+      }
+    )
+      .then((res) => {
+        res.json()
+        alert("Your Form has been submitted Successfully|| Our Person will contact you as soon as possible")
+        setFormData({Fname: "",
+    Lname: "",
+    Contactemail: "",
+    Contactphone: "",
+    Subject:"", // Using courseName prop as initial value
+    Comment: "",})
+      })
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  
+  }
   return (
     <div>
       <div className="contactbanner">
@@ -84,7 +129,7 @@ function ContactUs() {
         ></iframe>
       </div>
 
-      <form className="conform">
+      <form className="conform"  onSubmit={doSubmit}>
         <h1 style={{ display: "flex", justifyContent: "center" }}>
           CONTACT US!!!!!
         </h1>
@@ -96,6 +141,8 @@ function ContactUs() {
               className="form-control form1"
               id="inputFirstName"
               placeholder="First Name"
+              name='Fname'
+              onChange={handleChange}
             />
           </div>
 
@@ -106,6 +153,9 @@ function ContactUs() {
               className="form-control form1"
               id="inputPassword4"
               placeholder="Last Name"
+              name='Lname'
+              onChange={handleChange}
+
             />
           </div>
 
@@ -116,6 +166,8 @@ function ContactUs() {
               className="form-control form1"
               id="inputemail"
               placeholder="Email"
+              name='Contactemail'
+              onChange={handleChange}
             />
           </div>
 
@@ -126,6 +178,8 @@ function ContactUs() {
               className="form-control form1"
               id="inputphn"
               placeholder="Phone Number"
+              name='Contactphone'
+              onChange={handleChange}
             />
           </div>
         </div>
@@ -139,6 +193,8 @@ function ContactUs() {
             className="form-control form1"
             id="inputAddress"
             placeholder="Your Subject"
+            name="Subject"
+            onChange={handleChange}
           />
         </div>
         <div
@@ -151,6 +207,8 @@ function ContactUs() {
             className="form-control form1"
             id="inputAddress2"
             placeholder="Your Message"
+            name="Comment"
+            onChange={handleChange}
           />
           <button
             type="submit"

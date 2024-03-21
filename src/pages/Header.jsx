@@ -13,7 +13,7 @@ function Header() {
     <>
        <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
-        <Navbar.Brand as={Link} to="/"><h3 style={{marginLeft:'.6rem'}} >Augusta Avitaion</h3></Navbar.Brand>
+        <Navbar.Brand as={Link} to="/"><h3 style={{marginLeft:'.6rem'}}> Augusta Aviation</h3></Navbar.Brand>
         <Navbar.Brand href="#home">
             <img
               src={logo}

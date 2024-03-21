@@ -1,49 +1,151 @@
-import React from 'react'
-import '../css/subpagescss/getintouch.css'
-function Getintouch({courseName}) {
+import React, { useState } from "react";
+import "../css/subpagescss/getintouch.css";
+function Getintouch({ courseName }) {
+  const [formData, setFormData] = useState({
+    Fname: "",
+    Lname: "",
+    Contactemail: "",
+    Contactphone: "",
+    Contactcourse: courseName || "", // Using courseName prop as initial value
+    Comment: "",
+  });
+  const handleChange = (e)=>{
+    setFormData({
+      ...formData,
+      [e.target.name]:e.target.value,
+    })
+  }
+ const doSubmit = (event) =>{
+   event.preventDefault();
+   console.log(event.target);
+    // const formDatab = new FormData(formData);
+    // console.log(formDatab);
+    fetch(
+      "https://script.google.com/macros/s/AKfycbxlI9f67n9Sgm0yBw_dt2z0u9-US7RyGpVS6EIXqEFASKrLMcnMPP0wiebiXOk52v6c/exec",
+      {
+        method: "POST",
+        body: new FormData(event.target),
+      }
+    )
+      .then((res) => {
+        res.json()
+        alert("Your Form has been submitted Successfully|| Our Person will contact you as soon as possible")
+        setFormData({Fname: "",
+    Lname: "",
+    Contactemail: "",
+    Contactphone: "",
+    Contactcourse: courseName || "", // Using courseName prop as initial value
+    Comment: "",})
+      })
+      .then((data) => {
+        console.log(data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  
+  }
   return (
     <div>
-                <div class="container">
-<div class="contact-section">
-<h2 class="ct-section-head">
-   Get Intouch With Us
-</h2>
-<div class="row contact-fields">
-<div class="col-md-8 left-form">
-   <form method="POST" action="https://formspree.io/f/xzbnagkk">
-      <div class="form-group">
-         <label class="sr-only" for="fname">First Name *</label>
-         <input class="required form-control" id="fname" name="fname" placeholder="First Name&nbsp;*" type="text" />
+      <div className="container">
+        <div className="contact-section">
+          <h2 className="ct-section-head">Get Intouch With Us</h2>
+          <div className="row contact-fields">
+            <div className="col-md-8 left-form">
+              <form className="form" onSubmit={doSubmit}>
+                <div className="form-group">
+                  <label className="sr-only" for="fname">
+                    First Name *
+                  </label>
+                  <input
+                    className="required form-control"
+                    id="fname"
+                    name="Fname"
+                    placeholder="First Name&nbsp;*"
+                    type="text"
+                    value={formData.Fname}
+                    onChange={handleChange}
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="lname">
+                    Last Name *
+                  </label>
+                  <input
+                    class="required form-control"
+                    id="lname"
+                    name="Lname"
+                    placeholder="Last Name&nbsp;*"
+                    type="text"
+                    value={formData.Lname}
+                    onChange={handleChange}
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="contactEmail">
+                    Email *
+                  </label>
+                  <input
+                    class="required form-control h5-email"
+                    id="contactEmail"
+                    name="Contactemail"
+                    placeholder="Email&nbsp;*"
+                    type="text"
+                    value={formData.Contactemail}
+                    onChange={handleChange}
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="contactPhone">
+                    Phone *
+                  </label>
+                  <input
+                    class="required form-control h5-phone"
+                    id="contactPhone"
+                    name="Contactphone"
+                    placeholder="Phone&nbsp;*"
+                    type="text"
+                    value={formData.Contactphone}
+                    onChange={handleChange}
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="contactCourse">
+                    Course Name *
+                  </label>
+                  <input
+                    class="required form-control h5-phone"
+                    id="contactCourse"
+                    name="Contactcourse"
+                    placeholder="Enter Interested Course"
+                    value={formData.Contactcourse}
+                    onChange={handleChange}
+                  />
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="comment">
+                    Type your message here
+                  </label>
+                  <textarea
+                    class="required form-control"
+                    id="comment"
+                    name="Comment"
+                    placeholder="Type your message here&nbsp;*"
+                    rows="3"
+                    value={formData.Comment}
+                    onChange={handleChange}
+                  ></textarea>
+                </div>
+                <button class="btn23 btn-accent " type="submit">
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="form-group">
-         <label class="sr-only" for="lname">Last Name *</label>
-         <input class="required form-control" id="lname" name="lname" placeholder="Last Name&nbsp;*" type="text" />
-      </div>
-      <div class="form-group">
-         <label class="sr-only" for="contactEmail">Email *</label>
-         <input class="required form-control h5-email" id="contactEmail" name="contactEmail" placeholder="Email&nbsp;*" type="text" />
-      </div>
-      <div class="form-group">
-         <label class="sr-only" for="contactPhone">Phone *</label>
-         <input class="required form-control h5-phone" id="contactPhone" name="contactPhone" placeholder="Phone&nbsp;*" type="text" />
-      </div>
-      <div class="form-group">
-         <label class="sr-only" for="contactCourse">Course Name *</label>
-         <input class="required form-control h5-phone" id="contactCourse" name="contactCourse" placeholder="Enter Interested Course" value ={courseName}/>
-      </div>
-      <div class="form-group">
-         <label class="sr-only" for="comment">Type your message here</label>
-         <textarea class="required form-control" id="comment" name="comment" placeholder="Type your message here&nbsp;*" rows="3"></textarea>
-      </div>
-      <button class="btn23 btn-accent " type="submit">Submit</button>  
-   </form>
-</div>
-
-</div>
-</div>
-</div>
     </div>
-  )
+  );
 }
 
-export default Getintouch
+export default Getintouch;
