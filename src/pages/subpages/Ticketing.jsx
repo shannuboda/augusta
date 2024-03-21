@@ -1,8 +1,12 @@
-import React from "react";
+import React, {useEffect }from "react";
 import "../css/subpagescss/ticketing.css";
 import Getintouch from "./Getintouch";
 import Courses from "../Courses";
 function Ticketing() {
+  useEffect(() => {
+    // Scroll to the top of the page when the component is loaded
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <div className="ticketingbanner">

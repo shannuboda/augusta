@@ -10,10 +10,17 @@ import im6 from '../css/subpagescss/images/Dangerous.jpg'
 import im8 from '../css/subpagescss/images/LOAD-TRIM.jpg'
 import im10 from '../css/subpagescss/images/MARSHELLING.jpg'
 import im9 from '../css/subpagescss/images/RAMP-MANAGEMENT.jpg'
+
 import Courses from '../Courses'
+import { useEffect } from "react"
 function AirportManagement() {
+  useEffect(() => {
+    // Scroll to the top of the page when the component is loaded
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
+    
        <div className="airportbanner" >
             <h3>Airport Management Course</h3>
             <p>Home . Courses</p>

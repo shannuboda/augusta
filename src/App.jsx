@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
+
 import Header from './pages/Header';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -33,14 +34,12 @@ import GoodSpeaker from './pages/posts/GoodSpeaker';
 
 
 function App() {
-
   
   return (
     
     <div>
-      
-    
       <Header></Header>
+      
       <Routes>
         <Route path="/" element={<Home></Home>} />
         <Route path="/about" element={<About />} />

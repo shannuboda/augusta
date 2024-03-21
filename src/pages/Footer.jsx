@@ -4,8 +4,9 @@ import './css/footer.css'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
 function Footer() {
-  
+  const Navigate = useNavigate()
   return (
     <div className='foot-main'>
         <div className="f1">
@@ -48,12 +49,12 @@ function Footer() {
               <div className="f2_2">
                   <h4>Popular Courses</h4>
                   <ul>
-                    <li> <a href="/airportmanagement" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Airport Management </a></li>
-                    <li> <a href="/groundstaff" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;Aviation,  Ground Staffing Training </a></li>
-                    <li> <a href="/ticketing" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Ticketing </a></li>
-                    <li> <a href="/cabincrew" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Cabin Crew</a></li>
-                    <li> <a href="/cargo" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Cargo Course</a></li>
-                    <li> <a href="/pilot" style={{textDecoration:'none', color: "#6d6f6c"}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Pilot Course</a></li>
+                    <li onClick={()=>{Navigate('/airportmanagement')}}> <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span >&nbsp;&nbsp;AUGUSTA Certified Airport Management</li>
+                    <li onClick={()=>{Navigate('/groundstaff')}}><span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;Aviation,  Ground Staffing Training </li>
+                    <li onClick={()=>{Navigate('/ticketing')}}> <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Ticketing</li>
+                    <li onClick={()=>{Navigate('/cabincrew')}}> <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Cabin Crew</li>
+                    <li onClick={()=>{Navigate('/cargo')}}> <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Cargo Course</li>
+                    <li onClick={()=>{Navigate('/pilot')}}>  <span><i className="fa fa-angle-double-right" aria-hidden="true"></i></span>&nbsp;&nbsp;AUGUSTA Certified Pilot Course</li>
 
                   </ul>
               </div>

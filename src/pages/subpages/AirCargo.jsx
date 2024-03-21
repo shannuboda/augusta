@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../css/subpagescss/aircargo.css";
 import Getintouch from "./Getintouch";
 import Courses from "../Courses";
+
 function AirCargo() {
-  
+  useEffect(() => {
+    // Scroll to the top of the page when the component is loaded
+    window.scrollTo(0, 0);
+  }, []);
   return (
+    
     <div>
       <div className="cargobanner">
         <h3>Air Cargo Course</h3>
